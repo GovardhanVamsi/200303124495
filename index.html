@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Management Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Management HTTP MicroService</h1>
+        <form id="numberForm">
+            <div class="input-field">
+                <label for="url">URL:</label>
+                <input type="text" id="url" name="url" required>
+            </div>
+            <div id="urlContainer"></div>
+            <button type="button" onclick="addUrlField()">Add URL</button>
+            <button type="submit" class="button-submit">Get Numbers</button>
+        </form>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
